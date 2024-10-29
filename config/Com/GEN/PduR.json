@@ -1,0 +1,37 @@
+{
+  "class": "PduR",
+  "routines": [
+    {
+      "name": "P2P_RX",
+      "from": "CanTp",
+      "to": "Dcm"
+    },
+    {
+      "name": "P2P_TX",
+      "from": "Dcm",
+      "to": "CanTp"
+    },
+    {
+      "name": "P2A_RX",
+      "from": "CanTp",
+      "to": "Dcm"
+    },
+    {
+      "name": "P2A_TX",
+      "from": "Dcm",
+      "to": "CanTp"
+    },
+    {
+      "name": "CAN0_TX_MSG_TIME",
+      "from": "Com",
+      "to": "CanIf",
+      "id": 257
+    },
+    {
+      "name": "CAN0_RX_MSG_ABS_INFO",
+      "from": "CanIf",
+      "to": "Com",
+      "id": 258
+    }
+  ]
+}

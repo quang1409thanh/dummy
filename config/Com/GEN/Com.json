@@ -1,0 +1,209 @@
+{
+  "class": "Com",
+  "networks": [
+    {
+      "name": "CAN0",
+      "network": "CAN",
+      "device": "simulator_v2",
+      "port": 0,
+      "baudrate": 500000,
+      "me": "AS",
+      "messages": [
+        {
+          "id": 257,
+          "name": "TxMsgTime",
+          "dlc": 8,
+          "node": "AS",
+          "signals": [
+            {
+              "name": "year",
+              "start": 7,
+              "size": 16,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "AS"
+              ],
+              "group": "SystemTime"
+            },
+            {
+              "name": "month",
+              "start": 23,
+              "size": 8,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "AS"
+              ],
+              "group": "SystemTime"
+            },
+            {
+              "name": "day",
+              "start": 31,
+              "size": 8,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "AS"
+              ],
+              "group": "SystemTime"
+            },
+            {
+              "name": "hour",
+              "start": 39,
+              "size": 8,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "AS"
+              ],
+              "group": "SystemTime"
+            },
+            {
+              "name": "minute",
+              "start": 47,
+              "size": 8,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "AS"
+              ],
+              "group": "SystemTime"
+            },
+            {
+              "name": "second",
+              "start": 55,
+              "size": 8,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "AS"
+              ],
+              "group": "SystemTime"
+            },
+            {
+              "name": "SystemTime",
+              "endian": "big",
+              "start": 7,
+              "size": 56,
+              "isGroup": true
+            }
+          ]
+        },
+        {
+          "id": 258,
+          "name": "RxMsgAbsInfo",
+          "dlc": 8,
+          "node": "Other",
+          "signals": [
+            {
+              "name": "VehicleSpeed",
+              "start": 7,
+              "size": 16,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "Other"
+              ]
+            },
+            {
+              "name": "TachoSpeed",
+              "start": 23,
+              "size": 16,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "Other"
+              ]
+            },
+            {
+              "name": "Led1Sts",
+              "start": 39,
+              "size": 2,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "Other"
+              ]
+            },
+            {
+              "name": "Led2Sts",
+              "start": 37,
+              "size": 2,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "Other"
+              ]
+            },
+            {
+              "name": "Led3Sts",
+              "start": 35,
+              "size": 2,
+              "endian": "big",
+              "sign": "+",
+              "factor": 1,
+              "offset": 0,
+              "min": 0,
+              "max": 4294967295,
+              "unit": "\"\"",
+              "node": [
+                "Other"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

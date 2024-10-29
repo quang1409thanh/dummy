@@ -1,0 +1,17 @@
+{
+  "class": "Trace",
+  "area": "App",
+  "size": 1024,
+  "events": [
+    "FlsAcErase",
+    "FlsAcWrite",
+    "MainTask10ms_B",
+    "MainTask10ms_E",
+    "MainTaskFast_B",
+    "MainTaskFast_E",
+    "MemoryTask_B",
+    "MemoryTask_E",
+    "FeeBackup_B",
+    "FeeBackup_E"
+  ]
+}
